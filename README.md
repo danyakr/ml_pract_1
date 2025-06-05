@@ -2,9 +2,9 @@
 
 ## Ссылки на ресурсы
 
-- 📓 Jupyter Notebook: [GitHub](https://github.com/morozovvaa/mo6pract1/blob/main/%D0%9C%D0%BE%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%B0_%D0%BF%D1%80%D0%B0%D0%BA%D1%82_1.ipynb)  
-- 📊 Датасет: [Wine Quality Dataset на Kaggle](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)  
-- ☁️ Google Colab: [Colab-сессия](https://colab.research.google.com/drive/1WKjlxhfE0UDUXJnSOseNuZOSndSEaXvK?usp=sharing)  
+- Jupyter Notebook: [GitHub](https://github.com/danyakr/ml_pract_1/blob/main/Красников_практ_1.ipynb)  
+- Датасет: [Wine Quality Dataset на Kaggle](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)  
+- Google Colab: [Colab-сессия](https://colab.research.google.com/drive/1WKjlxhfE0UDUXJnSOseNuZOSndSEaXvK?usp=sharing)  
 
 ---
 
@@ -74,6 +74,8 @@ sns.heatmap(corr, annot=True, cmap='coolwarm')
 plt.title('Feature Correlation Heatmap')
 plt.show()
 ```
+---
+
 ## Построение моделей машинного обучения
 ## DummyClassifier
 ```
@@ -148,7 +150,7 @@ joblib.dump(rf, "final_wine_model.pkl")
 joblib.dump(scaler, "scaler.pkl")
 ```
 
-
+---
 
 # REST API
 Сервис написан с использованием Flask , предоставляет один эндпоинт /api/predict , который принимает данные о вине и возвращает результат предсказания в формате JSON.
@@ -219,6 +221,8 @@ pip install -r requirements.txt
 python app.py
 ```
 Сервис будет доступен по адресу: http://localhost:5000/
+
+---
 
 # Веб-приложение
 
