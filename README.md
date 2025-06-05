@@ -66,6 +66,8 @@ sns.countplot(data=df, x='quality', hue='type')
 plt.title('Quality Distribution by Wine Type')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/4fe71fc6-e5bc-42da-a6a3-10bb73e26a47)
+
 ## Корреляционная матрица
 ```
 corr = df.drop(columns=['type']).corr()
@@ -74,6 +76,8 @@ sns.heatmap(corr, annot=True, cmap='coolwarm')
 plt.title('Feature Correlation Heatmap')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/0b276f5b-1080-4b3d-a50c-9242868019bb)
+
 ---
 
 ## Построение моделей машинного обучения
